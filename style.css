@@ -1,0 +1,179 @@
+
+body{
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Roboto' ,sans-serif;
+    color: #666666;
+    background-color:#ECFEFF;
+    
+}
+h2{
+    font-size: 2rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+    color: #222222;
+}
+
+a{
+    text-decoration: none;
+    color: #60A5FA;
+}
+a:hover ,a:focus{
+    color: #1D4ED8;
+}
+
+#logo {
+    height: 75px;
+}
+
+#banner {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    object-fit: cover;
+    height: 300px;
+    
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+#description {
+    width: 50%;
+    margin-top: 0%;
+    padding: 0%;
+    font-size: 1.5rem;
+    font-family: 'Merriweather',sans-serif;
+    font-weight: 300;
+}
+
+#travel {
+    width: 50%;
+    margin: 5px;
+    object-fit: cover;
+   
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    
+
+
+}
+
+#banner1 {
+    padding: 5px;
+    
+    width: 100%;
+    height: 200px;
+    margin: 5px;
+    border: 2px;
+    margin: black;
+}
+
+#tour{
+    
+    max-width: 800px;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+
+.jobs-header-row th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color:#C7D2FE;
+    text-align: center;
+    color: #222222;
+}
+
+.jobs-data-row td{
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd)
+{
+background-color:#EEF2FF;
+}
+
+
+#application{
+    max-width: 800px;
+    margin: 16px auto;
+    padding: 0 8px;
+    padding-top: 16px;
+    border: 1px solid grey;
+
+}
+
+.form-group {
+    margin-bottom: 4px ;
+    
+}
+
+
+.form-group input[type="submit"] {
+    background-color:#60A5FA ;
+    color:#ffffff;
+    padding: 4px;
+   cursor:pointer ;
+}
+
+.form-group input[type="submit"]:hover,.form-group input[type="submit"]:focus{
+      color: #1D4ED8;
+}
+
+
+#application-form label {
+  
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #333333;
+}
+
+#application-form input ,select {
+    font-size: 1rem ;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom:6px ;
+}
+
+#footer{
+    margin-top: 32px;
+    padding-top: 5px;
+    border: 20px;
+}
+
+#footer-links{
+    list-style: none;
+    text-align: center;
+}
+
+#footer-links li{
+    display: inline;
+    margin: 0 16px;
+    
+}
+
+#end{
+    text-align: center;
+    border: 10px;
+    color: #404040;
+}
